@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginScreen"
-    android:background="@drawable/background_login">
+    tools:context=".LoginActivity">
+
+    <include layout="@layout/login_register_background"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
